@@ -8,36 +8,64 @@ table, th, td {
 <body>
 
 <h2>Análisis de ventas</h2>
-  <p>Analisis de ventas anuales</p>
+<caption>Analisis de ventas anuales</caption>
 
 
 <table style="width:100%">
-  <tr>
-    <th>Año</th>
-    <th>Expansion de ventas</th>
-    
-  </tr>
-  <tr>
-    <td>N-3</td>
-    <td>N-2</td>
-    <td>N-1</td>
-    <td>N</td>
-    
-  </tr>
-  <tr>
-    <td>Producto A</td>
-    <td>Producto B</td>
-    <td>Producto C</td>
-    <td>Producto D</td>
-  </tr>
     <tr>
-    <th>Año</th>
-    <th>Expansion de ventas</th>
-    
-  </tr>
+        <th rowspan="2">Año</th>
+        <th colspan="4">Expansion de ventas</th>
+
+    <tr>
+        <td>Producto A</td>
+        <td>Producto B</td>
+        <td>Producto C</td>
+        <td>Producto D</td>
+    </tr>
+
+    </tr>
+    <tr>
+        <td>N-3</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+        <td>-</td>
+    </tr>
+    </tr>
+    <tr>
+        <td>N-2</td>
+        <td>3</td>
+        <td>5</td>
+        <td>8</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>N-1</td>
+        <td>4</td>
+        <td>4</td>
+        <td>7</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>N</td>
+        <td>5</td>
+        <td>7</td>
+        <td>6</td>
+        <td>2</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2">Año</th>
+        <td>Producto A</td>
+        <td>Producto B</td>
+        <td>Producto C</td>
+        <td>Producto D</td>
+    </tr>
+
+    <tr>
+        <th colspan="4">>Expansion de ventas</th>
+    </tr>
 </table>
-
-
 
 </body>
 </html>
