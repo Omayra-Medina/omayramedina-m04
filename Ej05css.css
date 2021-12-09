@@ -3,7 +3,10 @@
 }
 
 h1 {
-background-color: gray;
+background: gray; 
+color:white; 
+font-weight:bold; 
+padding:15px
 }
 
 .menu {
