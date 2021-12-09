@@ -1,0 +1,24 @@
+html {
+    width: 768px;
+}
+
+div {
+    width: 150px;
+    height: 100px;
+    background-color: lightseagreen;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.left{
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
