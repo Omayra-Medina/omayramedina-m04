@@ -13,6 +13,7 @@ h2 {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  clear: both;
 }
 
 div {
@@ -23,6 +24,7 @@ div {
   margin-left: auto;
   margin-right: auto;
   display: inline-block;
+  clear: both;
 }
 
 .left{
