@@ -23,6 +23,10 @@ h2 ~ h2 {
   color:black;
 }
 
+.left{
+    float: left;
+}
+
 .menu {
     clear: both;
     display: flex;
