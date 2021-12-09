@@ -31,11 +31,12 @@ div {
 }
 
 .menu {
-    clear: both;
+    position: relative;
+    width: 70%;
+    margin: 10px auto 10px;
+    border-radius: 8px;
     background: gray;
-    color: black;
-    display: inline-block;
-    justify-content: space-around;
+    text-align:center;
 }
 
 .subtitle {
