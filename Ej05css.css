@@ -25,16 +25,17 @@ div {
 
 .left{
     float: left;
+    clear: both;
 }
 
 .menu {
     clear: both;
-    display: inline;
+    display: inline-block;
     justify-content: space-around;
 }
 
 .subtitle {
     border: 1px solid black;
-    display: inline;
+    display: inline-block;
 }
 
