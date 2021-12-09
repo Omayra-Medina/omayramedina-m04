@@ -3,10 +3,24 @@
 }
 
 h1 {
-background: gray; 
+background: black; 
 color:white; 
 font-weight:bold; 
 padding:15px
+}
+
+h2 {
+  background: gray;
+  color: black
+  float: left;
+  font-weight:bold;
+  width: 100px;
+}
+
+h2 ~ h2 {
+  margin-left: auto;
+  margin-right: auto;
+  color:black;
 }
 
 .menu {
@@ -20,13 +34,3 @@ padding:15px
     display: flex;
 }
 
-h2 {
-    float: left;
-    width: 100px;
-}
-
-h2 ~ h2 {
-    margin-left: auto;
-    margin-right: auto;
-    color:black;
-}
