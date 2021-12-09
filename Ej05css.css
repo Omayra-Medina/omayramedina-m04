@@ -25,12 +25,13 @@ div {
 
 .left{
     float: left;
+    display: block
     clear: both;
 }
 
 .menu {
     clear: both;
-    display: inline-block;
+    display: inline;
     justify-content: space-around;
 }
 
