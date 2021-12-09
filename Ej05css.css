@@ -1,0 +1,29 @@
+*{
+    border: 1px solid black;
+}
+
+h1 {
+background-color: graytitle;
+}
+
+.menu {
+    clear: both;
+    display: flex;
+    justify-content: space-around;
+}
+
+.subtitle {
+    border: 1px solid black;
+    display: flex;
+}
+
+h2 {
+    float: left;
+    width: 100px;
+}
+
+h2 ~ h2 {
+    margin-left: auto;
+    margin-right: auto;
+    color:black;
+}
