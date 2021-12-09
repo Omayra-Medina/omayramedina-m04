@@ -45,6 +45,7 @@ div {
 }
 
 footer {
+  position: relative;
   background: gray; 
   color:black; 
   padding:10px  
