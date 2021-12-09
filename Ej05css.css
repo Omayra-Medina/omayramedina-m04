@@ -32,12 +32,20 @@ div {
 
 .menu {
     clear: both;
-    display: inline;
+    background: gray;
+    color: black;
+    display: inline-block;
     justify-content: space-around;
 }
 
 .subtitle {
     border: 1px solid black;
     display: inline-block;
+}
+
+footer {
+  background: gray; 
+  color:black; 
+  padding:10px  
 }
 
