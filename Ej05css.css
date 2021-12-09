@@ -29,7 +29,6 @@ div {
 .left{
     float: left;
     display: block;
-    clear: both;
 }
 
 .menu {
