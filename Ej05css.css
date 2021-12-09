@@ -12,6 +12,7 @@ h2 {
   width: 100px;
   margin-left: auto;
   margin-right: auto;
+  display: inline-block;
 }
 
 div {
@@ -25,7 +26,7 @@ div {
 
 .left{
     float: left;
-    display: block
+    display: block;
     clear: both;
 }
 
