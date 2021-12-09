@@ -16,12 +16,6 @@ h2 {
   width: 100px;
 }
 
-h2 ~ h2 {
-  margin-left: auto;
-  margin-right: auto;
-  color:black;
-}
-
 .left{
     float: left;
 }
