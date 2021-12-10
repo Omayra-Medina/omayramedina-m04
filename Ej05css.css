@@ -1,54 +1,34 @@
-h1 {
-  background: black; 
-  color:white; 
-  font-weight:bold; 
-  padding:15px
-  }
-  
-  h2 {
-    background: gray;
-    color: black;
-    font-weight:bold;
-    width: 100px;
-    margin-left: auto;
-    margin-right: auto;
+h2 {
     display: inline-block;
-    clear: both;
+    width: 48%;
   }
-  
-  div {
-    width: 150px;
-    height: 100px;
-    background-color: gray;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 10px;
-    clear: both;
-  }
-  
-  .left{
-      float: left;
-      display: block;
-  }
-  
-  .menu {
-      position: relative;
-      display: block;
-      width: 70%;
-      margin: 10px auto 10px;
-      border-radius: 8px;
-      background: gray;
-      text-align:center;
-  }
-  
-  .subtitle {
-      border: 1px solid black;
+
+  li {
       display: inline-block;
+      width: 24%
   }
-  
-  footer {
-    position: relative;
-    background: gray; 
-    color:black; 
-    padding:10px  
-  }
+
+ article {
+     clear: both;
+ }
+
+ div{
+    width: 200px;
+    height: 100px;
+    padding-top: 99px;
+    float: left;
+    margin: 10px 5px 10px 0px;
+    background-color: lightgrey;
+    text-align: center;
+}
+ p{
+    display: inline-block;
+    width: 50%;
+}
+.text2{
+    display: inline-block;
+    width: 30%;
+}
+ footer{
+    clear: both;
+}
