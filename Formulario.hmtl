@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="guia_omayramedina.css"/>
+    <title>Contacto</title>
+</head>
+
+<body>
+    <header>
+        <h1>Contacto</h1>
+    </header>
+
+    <section>
+     <form action="/action_page.php">
+     <label for="fname">Su nombre (requerido):</label><br>
+     <input type="text" id="fname" name="fname"><br><br>
+     <label for="femail">Su e-mail (requerido):</label><br>
+     <input type="text" id="femail" name="femail"><br><br>
+     <label for="fasunto">Asunto</label><br>
+     <input type="text" id="fasunto" name="fasunto"><br><br>
+     <label for="fmessage">Su mensaje</label><br>
+     <input type="text" id="fmessage" name="fmesagge"><br><br>
+     <input type="submit" value="Enviar">
+     </form> 
+    </section>
+
+    <footer>
+     <h5>Facebook</h5>
+     <h5>Twitter</h5>
+     <h5>Instagram</h5>
+     <h5>Pinterest</h5>
+     <h5>Email</h5>
+     <h5>RSS</h5>
+    </footer>
+</body>
+</html>
